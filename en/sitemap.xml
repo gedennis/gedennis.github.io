@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://www.molinjun.com/en/first_post/</loc><lastmod>2020-08-05T17:31:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://www.molinjun.com/en/first_post/</loc><lastmod>2020-08-05T23:21:29&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://www.molinjun.com/first_post/"
@@ -11,7 +11,7 @@
                     hreflang="en"
                     href="https://www.molinjun.com/en/first_post/"
                     /></url><url>
-            <loc>https://www.molinjun.com/en/posts/</loc><lastmod>2020-08-05T17:31:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://www.molinjun.com/en/posts/</loc><lastmod>2020-08-05T23:21:29&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://www.molinjun.com/posts/"
