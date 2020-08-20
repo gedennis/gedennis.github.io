@@ -1,12 +1,19 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>莫林成长记 | 点滴积累，厚积薄发</title>
+        <title>莫林笔记 | 点滴积累，厚积薄发</title>
         <link>https://www.molinjun.com/</link>
-        <description>莫林成长记 | 点滴积累，厚积薄发</description>
+        <description>莫林笔记 | 点滴积累，厚积薄发</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>gedennis@163.com (莫林)</managingEditor>
             <webMaster>gedennis@163.com (莫林)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 02 Aug 2019 11:04:49 &#43;0800</lastBuildDate>
             <atom:link href="https://www.molinjun.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>使用 Hugo 搭建个人站点</title>
+    <link>https://www.molinjun.com/20200812-use-hugo-create-site/</link>
+    <pubDate>Wed, 05 Aug 2020 17:31:30 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.molinjun.com/20200812-use-hugo-create-site/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>第一篇测试文章</title>
     <link>https://www.molinjun.com/first_post/</link>
     <pubDate>Wed, 05 Aug 2020 17:31:30 &#43;0800</pubDate>
