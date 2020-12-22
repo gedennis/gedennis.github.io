@@ -6,17 +6,17 @@
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
         <title>使用 Hugo 搭建个人站点 - 莫林笔记 | 点滴积累，厚积薄发</title><meta name="Description" content=""><meta property="og:title" content="使用 Hugo 搭建个人站点" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="摘要 为什么写博客 Hugo 基础使用 Hugo 是一款使用 Go 编写的的静态站点生成器。它使用非常简单，你只需要关注你的内容，选择一款你喜欢的主题，通过几个简单的命" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.molinjun.com/20200812-use-hugo-create-site/" />
 <meta property="og:image" content="https://www.molinjun.com/logo.png"/>
 <meta property="article:published_time" content="2020-08-05T17:31:30+08:00" />
-<meta property="article:modified_time" content="2020-08-05T17:31:30+08:00" />
+<meta property="article:modified_time" content="2020-08-21T18:23:27+08:00" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://www.molinjun.com/logo.png"/>
 
 <meta name="twitter:title" content="使用 Hugo 搭建个人站点"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="摘要 为什么写博客 Hugo 基础使用 Hugo 是一款使用 Go 编写的的静态站点生成器。它使用非常简单，你只需要关注你的内容，选择一款你喜欢的主题，通过几个简单的命"/>
 <meta name="application-name" content="莫林笔记">
 <meta name="apple-mobile-web-app-title" content="莫林笔记"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -29,8 +29,8 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/www.molinjun.com\/20200812-use-hugo-create-site\/"
-        },"image": ["https:\/\/www.molinjun.com\/images\/Apple-Devices-Preview.png"],"genre": "posts","wordcount":  0 ,
-        "url": "https:\/\/www.molinjun.com\/20200812-use-hugo-create-site\/","datePublished": "2020-08-05T17:31:30+08:00","dateModified": "2020-08-05T17:31:30+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+        },"image": ["https:\/\/www.molinjun.com\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Hugo","wordcount":  1630 ,
+        "url": "https:\/\/www.molinjun.com\/20200812-use-hugo-create-site\/","datePublished": "2020-08-05T17:31:30+08:00","dateModified": "2020-08-21T18:23:27+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": {
                     "@type": "ImageObject",
@@ -114,9 +114,9 @@
             <h2 class="toc-title">目录</h2>
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">使用 Hugo 搭建个人站点</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>莫林</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-08-05">2020-08-05</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 0 字&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 0 分钟&nbsp;<span id="/20200812-use-hugo-create-site/" class="leancloud_visitors" data-flag-title="使用 Hugo 搭建个人站点">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>莫林</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E8%87%AA%E5%AA%92%E4%BD%93/"><i class="far fa-folder fa-fw"></i>自媒体</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2020-08-05">2020-08-05</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 1630 字&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 4 分钟&nbsp;<span id="/20200812-use-hugo-create-site/" class="leancloud_visitors" data-flag-title="使用 Hugo 搭建个人站点">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
@@ -124,12 +124,379 @@
                     <span>目录</span>
                     <span><i class="details-icon fas fa-angle-right"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"></div><div class="post-footer" id="post-footer">
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#摘要">摘要</a></li>
+    <li><a href="#为什么写博客">为什么写博客</a></li>
+    <li><a href="#hugo-基础使用">Hugo 基础使用</a>
+      <ul>
+        <li><a href="#准备">准备</a></li>
+        <li><a href="#安装">安装</a></li>
+        <li><a href="#快速入门">快速入门</a></li>
+      </ul>
+    </li>
+    <li><a href="#基本框架">基本框架</a>
+      <ul>
+        <li><a href="#创建代码仓库">创建代码仓库</a></li>
+        <li><a href="#站点配置可选">站点配置（可选）</a></li>
+        <li><a href="#基本工作流">基本工作流</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="摘要">摘要</h2>
+<h2 id="为什么写博客">为什么写博客</h2>
+<h2 id="hugo-基础使用">Hugo 基础使用</h2>
+<p>Hugo 是一款使用 Go 编写的的静态站点生成器。它使用非常简单，你只需要关注你的内容，选择一款你喜欢的主题，通过几个简单的命令就可以快速生成一个漂亮的个人站点。关于静态网站生成器，之前使用过 Jekyll 和 Hexo。 这两款工具使用也挺简单方便，但安装设置相对来说复杂一点，最重要是生成速度比较慢。Hugo 的页面生成速度很快，目前我之前博客全部从 Hexo 转为使用 Hugo。</p>
+<h3 id="准备">准备</h3>
+<p>本文假设您已经做好了这些准备：</p>
+<ul>
+<li>电脑安装了 Git。</li>
+<li>有 Github 账号, 并熟悉 Github 的基础操作。</li>
+</ul>
+<h3 id="安装">安装</h3>
+<p>Hugo 同时支持 MacOS、Windows 和 Linux 等操作系统，安装也非常简单。你可以到<a href="https://gohugo.io/getting-started/installing/" target="_blank" rel="noopener noreffer">官网下载</a>相应的版本。</p>
+<p>如果是 MacOS, 建议使用 Homebrew 安装。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$ brew install hugo
+</code></pre></td></tr></table>
+</div>
+</div><p>如果是 Windows 或者 Homebrew 下载比较慢的话，建议到 Hugo 的 <a href="https://github.com/gohugoio/hugo/releases" target="_blank" rel="noopener noreffer">github release 页面</a>下载压缩包。下载解压之后，可以得到 Hugo 的执行程序。
+MacOS 或者 Linux 可以将指令放在 <code>/usr/local/bin</code> 目录。Windows 可以放在 <code>C:\Hugo\bin</code>目录。</p>
+<blockquote>
+<p>注意：Windows 下需要将 hugo 的目录添加到环境变量。【开始】-&gt; 【系统】 -&gt; 【高级系统设置】-&gt; 【环境变量】-&gt; 【PATH】-&gt; 【新增】，然后添加 Hugo 的路径 <code>C:\Hugo\bin</code>。</p>
+</blockquote>
+<p>安装完成之后，验证安装。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$ hugo version
+Hugo Static Site Generator v0.69.2/extended darwin/amd64 BuildDate: unknown
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="快速入门">快速入门</h3>
+<p>下面我们介绍几个 Hugo 的常用指令来快速入门。</p>
+<p><strong>生成站点</strong>
+使用 <code>hugo new site</code> 命令生成站点。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$ hugo new site &lt;站点名称&gt;
+</code></pre></td></tr></table>
+</div>
+</div><p>进入生成的目录，目录结构如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$ tree -L 2
+.
+├── archetypes      // hugo new 生成博客的模板，通常不需要动
+│   └── default.md
+├── config.toml     // 系统配置文件，后面详细介绍
+├── content         // 页面和博客存放的目录
+├── data            // 静态数据
+├── layouts         // 布局文件
+├── static          // 静态文件目录
+└── themes          // 主题目录
+</code></pre></td></tr></table>
+</div>
+</div><p><strong>添加主题</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$ cd &lt;站点目录&gt;
+$ git init
+$ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+</code></pre></td></tr></table>
+</div>
+</div><p>下载完成之后，将主题添加到站点配置中。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$ echo &#39;theme = &#34;LoveIt&#34;&#39; &gt;&gt; config.toml
+</code></pre></td></tr></table>
+</div>
+</div><p><strong>添加文章</strong>
+使用命令<code>hugo new content/&lt;种类&gt;/&lt;文件名&gt;.&lt;后缀名&gt;</code>创建第一篇文章。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$ hugo new posts/my-first-post.md
+</code></pre></td></tr></table>
+</div>
+</div><p>这里在 posts 目录下创建了一个名为<code>my-first-post</code>的 Markdown 文件。打开文件你会看到。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">---
+title: &#34;My First Post&#34;
+date: 2020-08-21T16:17:14+08:00
+draft: true
+---
+</code></pre></td></tr></table>
+</div>
+</div><p>这是文章的一些信息。由 <code>archetypes/default.md</code> 文件指定的。你可以在文件里添加一些内容。</p>
+<p><strong>预览</strong>
+现在我们可以通过 <code>hugo server</code> 在本地进行预览。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$ hugo server -D
+</code></pre></td></tr></table>
+</div>
+</div><p>浏览器打开 <code>http://localhost:1313/</code>, 就可以看到页面了。
+这里只是简单的感受了一下 hugo 的使用，下面我们将正式介绍 Hugo 搭建站点的一套工作流。</p>
+<h2 id="基本框架">基本框架</h2>
+<p>这一部分我们介绍如何搭建我们博客的基础框架，包括代码仓库、站点配置、Github Page 托管、站内搜索和百度统计/谷歌统计等内容。</p>
+<blockquote>
+<p>这一部分基本就配置一次就可以了，平时基本不需要改动。</p>
+</blockquote>
+<h3 id="创建代码仓库">创建代码仓库</h3>
+<p>这里我们需要创建两个代码仓库 <code>blog</code> 和 <code>&lt;你的github名称&gt;.github.io</code> 两个仓库。</p>
+<ul>
+<li>blog 仓库： 用来托管我们站点的代码。</li>
+<li>*.github.io: 用来存放托管的静态页面。</li>
+</ul>
+<blockquote>
+<p>请到自己的 Github 创建这两个仓库。如果没有 Github 账号或者不会创建，请在网上自行搜索学习。</p>
+</blockquote>
+<p><strong>本地创建站点目录</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">// 创建 blog 目录
+$ hugo new site blog
+
+// 添加主题， 这里以 LoveIt 为例
+$ cd blog
+$ git init
+$ git remote add origin git@github.com:&lt;你的账号&gt;/blog.git
+</code></pre></td></tr></table>
+</div>
+</div><p>现在我们就已经对 blog 仓库做了版本管理, 将代码推到 Github。因为有些文件我们不需要托管，在 blog 目录下创建 <code>.gitignore</code> 文件。可以参考网站 <a href="https://www.toptal.com/developers/gitignore" target="_blank" rel="noopener noreffer">gitignore.io</a> 生成 ignore 文件内容。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">/public/
+/resources/_gen/
+hugo_stats.json
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+</code></pre></td></tr></table>
+</div>
+</div><p>现在我们就已经对 blog 仓库做了版本管理, 可以将代码推到 Github。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">$ git add .
+$ git commit -m &#34;commit message&#34;
+$ git push -u origin master
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="站点配置可选">站点配置（可选）</h3>
+<p>$ git submodule add <a href="mailto:git@github.com">git@github.com</a>:dillonzq/LoveIt.git themes/LoveIt</p>
+<p>// 将主题示例文章和配置复制到 blog 目录
+$ cp -r themes/LoveIt/exampleSite/* ./</p>
+<h3 id="基本工作流">基本工作流</h3>
+<ul>
+<li>添加主题
+以 LoveIt 为例。</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span><span class="lnt">55
+</span><span class="lnt">56
+</span><span class="lnt">57
+</span><span class="lnt">58
+</span><span class="lnt">59
+</span><span class="lnt">60
+</span><span class="lnt">61
+</span><span class="lnt">62
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">
+\$ git submodule add git@github.com:dillonzq/LoveIt.git themes/LoveIt
+
+```
+
+通过网站 gitignore.io 生成 ignore 文件。
+
+```
+
+### Hugo
+
+# Generated files by hugo
+
+/public/
+/resources/\_gen/
+hugo_stats.json
+
+# Executable may be added to repository
+
+hugo.exe
+hugo.darwin
+hugo.linux
+
+```
+
+- 复制常用配置
+
+```
+
+cp -r themes/LoveIt/exampleSite/\* ./
+
+```
+
+&gt; 注释 themeDir 行
+
+```
+
+# themesDir = &#34;../..
+
+```
+
+- 预览效果
+
+```
+
+\$ hugo server -D
+
+```
+
+## 内容
+
+### 图床
+
+- 域名
+- CDN
+
+## 总结
+
+## 参考
+
+## 环境
+```
+</code></pre></td></tr></table>
+</div>
+</div></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2020-08-05</span>
+                <span>更新于 2020-08-21</span>
             </div>
             <div class="post-info-license"></div>
         </div>
@@ -138,13 +505,13 @@
                             <a class="link-to-markdown" href="/20200812-use-hugo-create-site/index.md" target="_blank">阅读原始文档</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://www.molinjun.com/20200812-use-hugo-create-site/" data-title="使用 Hugo 搭建个人站点" data-via="molin1226"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://www.molinjun.com/20200812-use-hugo-create-site/"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://www.molinjun.com/20200812-use-hugo-create-site/" data-title="使用 Hugo 搭建个人站点"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://www.molinjun.com/20200812-use-hugo-create-site/" data-title="使用 Hugo 搭建个人站点"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://www.molinjun.com/20200812-use-hugo-create-site/" data-title="使用 Hugo 搭建个人站点"><i class="fab fa-weibo fa-fw"></i></a></span>
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://www.molinjun.com/20200812-use-hugo-create-site/" data-title="使用 Hugo 搭建个人站点" data-via="molin1226" data-hashtags="Hugo"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://www.molinjun.com/20200812-use-hugo-create-site/" data-hashtag="Hugo"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://www.molinjun.com/20200812-use-hugo-create-site/" data-title="使用 Hugo 搭建个人站点"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://www.molinjun.com/20200812-use-hugo-create-site/" data-title="使用 Hugo 搭建个人站点"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@2.14.0/icons/line.svg"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://www.molinjun.com/20200812-use-hugo-create-site/" data-title="使用 Hugo 搭建个人站点"><i class="fab fa-weibo fa-fw"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/hugo/">Hugo</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
         </section>

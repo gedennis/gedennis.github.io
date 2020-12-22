@@ -34,7 +34,7 @@
 ## 联系我
 
 - 个人主页： [https://www.molinjun.com](https://www.molinjun.com)
-- Github: https://github.com/gedennis
+- Github: https://github.com/molinjun
 - 微信公众号：莫林笔记
-- 邮箱：gedennis@163.com
+- 邮箱：molin1226@gmail.com
 

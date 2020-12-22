@@ -2,44 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://www.molinjun.com/posts/</loc><lastmod>2020-08-05T23:21:29&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://www.molinjun.com/en/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://www.molinjun.com/posts/"
-                    /></url><url>
-            <loc>https://www.molinjun.com/20200812-use-hugo-create-site/</loc><lastmod>2020-08-05T17:31:30&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
-            <loc>https://www.molinjun.com/first_post/</loc><lastmod>2020-08-05T23:21:29&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://www.molinjun.com/en/first_post/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://www.molinjun.com/first_post/"
-                    /></url><url>
-            <loc>https://www.molinjun.com/about/</loc><lastmod>2020-08-05T13:31:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://www.molinjun.com/en/about/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://www.molinjun.com/about/"
-                    /></url><url>
-            <loc>https://www.molinjun.com/</loc><lastmod>2020-08-05T13:31:15&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://www.molinjun.com/en/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://www.molinjun.com/"
-                    /></url><url>
-            <loc>https://www.molinjun.com/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://www.molinjun.com/categories/</loc><lastmod>2020-08-21T18:23:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://www.molinjun.com/en/categories/"
@@ -48,7 +11,17 @@
                     hreflang="zh-cn"
                     href="https://www.molinjun.com/categories/"
                     /></url><url>
-            <loc>https://www.molinjun.com/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://www.molinjun.com/tags/hugo/</loc><lastmod>2020-08-21T18:23:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.molinjun.com/posts/</loc><lastmod>2020-08-21T18:23:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://www.molinjun.com/en/posts/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://www.molinjun.com/posts/"
+                    /></url><url>
+            <loc>https://www.molinjun.com/tags/</loc><lastmod>2020-08-21T18:23:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://www.molinjun.com/en/tags/"
@@ -56,4 +29,33 @@
                     rel="alternate"
                     hreflang="zh-cn"
                     href="https://www.molinjun.com/tags/"
+                    /></url><url>
+            <loc>https://www.molinjun.com/20200812-use-hugo-create-site/</loc><lastmod>2020-08-21T18:23:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.molinjun.com/first_post/</loc><lastmod>2020-08-05T23:21:29&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://www.molinjun.com/en/first_post/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://www.molinjun.com/first_post/"
+                    /></url><url>
+            <loc>https://www.molinjun.com/categories/%E8%87%AA%E5%AA%92%E4%BD%93/</loc><lastmod>2020-08-21T18:23:27&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.molinjun.com/about/</loc><lastmod>2020-12-22T10:04:13&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://www.molinjun.com/en/about/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://www.molinjun.com/about/"
+                    /></url><url>
+            <loc>https://www.molinjun.com/</loc><lastmod>2020-12-22T10:04:13&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://www.molinjun.com/en/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://www.molinjun.com/"
                     /></url></urlset>
